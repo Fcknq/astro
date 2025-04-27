@@ -1,3 +1,4 @@
+/* Сброс отступов */
 * {
     margin: 0;
     padding: 0;
@@ -70,4 +71,25 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+}
+
+.telegram-button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.telegram-button a {
+    display: inline-block;
+    background: #0088cc;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.telegram-button a:hover {
+    background: #0077b3;
+    transform: scale(1.05);
 }
